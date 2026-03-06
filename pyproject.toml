@@ -3,9 +3,16 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "resolution_week1_stolen_username
+name = "resolution_week1_stolen_username"
 version = "1.0.0"
+authors = [
+    { name="Rudransh Goel", email="rudranshgoel01@gmail.com" },
+]
+description = "A small todo list tool"
 dependencies = []
 
 [project.scripts]
 todo = "resolution_week1_stolen_username.main:main"
+
+[project.urls]
+Homepage = "https://github.com/rudranshgoel1/resolution-python"
